@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 40px;
+    margin: 50px;
     background-color: #1A1A1A;
     color: #F3EDE9;
 }
@@ -77,4 +77,25 @@ footer {
     margin-top: 40px;
     font-size: 14px;
     color: gray;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+}
+
+.skills-column {
+    width: 50%;
+}
+
+.skills-column h3 {
+    color: #CBA48A;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.skills-column ul li {
+    margin-bottom: 8px;
 }
